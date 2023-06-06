@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bebas+Neue&family=Cherry+Bomb+One&family=Playfair+Display&family=Roboto&family=Rubik:ital@1&display=swap');
+@import "static";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $text2 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: $color1;
+    overflow-x: hidden;
+    
+}
+
+.disableBtn{
+    background-color: rgb(237,237,237) !important;
+    cursor: not-allowed !important;
+}

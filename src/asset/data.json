@@ -1,0 +1,33 @@
+
+{
+"projects":[
+    {
+        "date":"06/06/2023",
+        "title":"CRYPTO",
+        "desc":"this is the sample description about my projects... lorem we",
+        "url":"https://crypto-rho-three.vercel.app/",
+        "imgsrc":"./photos/p3.png"
+    },
+    
+{
+    "date":"01/06/2023",
+    "title":"VIDEO HUB",
+    "desc":"this is the sample description about my projects...",
+    
+    "url":"https://video-hub-alpha-lovat.vercel.app/",
+
+    "imgsrc":"./photos/p1.png"
+},
+{
+    "date":"03/06/2023",
+    "title":"TECHY STAR",
+    "desc":"this is the sample description about my projects...",
+    "url":"https://masystar-pratikrajput125-gmailcom.vercel.app/",
+
+    "imgsrc":"./photos/p2.png"
+}
+
+
+
+]
+}

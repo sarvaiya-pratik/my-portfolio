@@ -1,0 +1,105 @@
+@import "static";
+
+footer {
+    width: 100%;
+    height: 28vmax;
+    background-color: $color6;
+    display: grid;
+    grid-template-columns: 10fr 5fr 1fr;
+    color: $color4;
+    padding: 1rem 3rem;
+
+
+    >div {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        text-align: center;
+        display: grid;
+        place-items: center;
+
+        >img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: contain;
+
+            // border: 1px solid black;
+
+        }
+
+        >h2 {
+            font: 400 2rem $text1;
+            letter-spacing: 1.5px;
+        }
+
+        >p {
+            font: 200 1rem $text2;
+            letter-spacing: 2px;
+        }
+    }
+
+    >aside {
+        text-align: center;
+        border-right: 1px solid white;
+
+        >h2 {
+            font: 400 2rem $text2;
+            // border-bottom: 1px solid $color4;
+        }
+
+        >article {
+            display: flex;
+            margin-top: 1rem;
+            flex-direction: column;
+            gap: 20px;
+
+            >a {
+                display: flex;
+                // flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+                padding: 3px;
+                align-items: center;
+                transition: all 0.5s;
+
+                &:hover {
+
+                    background-color: $color3;
+                }
+
+                >svg {
+                    color: aliceblue;
+                    font-size: 1.4rem;
+
+                }
+
+                >span {
+                    color: $color4;
+                }
+            }
+        }
+    }
+
+    >a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+
+        >svg {
+            font-size: 3rem;
+            color: $color3;
+            border-radius: 50%;
+            animation: updown 0.4s infinite ease-in alternate;
+            background-color: $color4;
+
+            &:hover {
+                background-color: $color5;
+                color: $color4;
+            }
+
+        }
+
+    }
+
+}
